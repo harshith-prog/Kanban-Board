@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kanban Board</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="column" id="todo-column">
+        <h2>To Do</h2>
+        <div class="task-list" id="todo-tasks"></div>
+    </div>
+    <div class="column" id="doing-column">
+        <h2>Doing</h2>
+        <div class="task-list" id="doing-tasks"></div>
+    </div>
+    <div class="column" id="done-column">
+        <h2>Done</h2>
+        <div class="task-list" id="done-tasks"></div>
+    </div>
+    <div class="add-task-form">
+        <h2>Add Task</h2>
+        <form id="task-form">
+            <input type="text" id="title" placeholder="Title" required>
+            <textarea id="description" placeholder="Description" required></textarea>
+            <select id="status">
+                <option value="To Do">To Do</option>
+                <option value="Doing">Doing</option>
+                <option value="Done">Done</option>
+            </select>
+            <button type="submit">Add</button>
+        </form>
+    </div>
+    
+    <template id="task-card-template">
+        <div class="task-card" data-task-id="TASK_ID_PLACEHOLDER" draggable="true">
+            <h3>Title</h3>
+            <p>Description</p>
+            <div class="task-buttons">
+                <button class="edit-button">Edit</button>
+                <button class="delete-button">Delete</button>
+            </div>
+        </div>
+    </template>
+
+    <script src="script.js"></script>
+</body>
+</html>
