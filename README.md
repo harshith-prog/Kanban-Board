@@ -21,5 +21,4 @@ MongoDB: The project uses MongoDB as a database to store task-related data. Mong
 API Endpoints: The backend defines several API endpoints, such as creating a new task, updating a task's status, editing a task, and deleting a task. These endpoints are accessed via HTTP requests from the frontend.
 
 
-Here is a screen shot showcasing the user interface:![image](https://github.com/harshith-prog/Kanban-Board/assets/71744833/8b0ff6a5-9a7b-474c-a4ee-413efdce91fa)
-Here is a live url to test the application: https://harshith-prog.github.io/Kanban-Board/
+Here is a screen shot showcasing the user interface:![image](https://github.com/harshith-prog/Kanban-Board/assets/71744833/8b0ff6a5-9a7b-474c-a4ee-413efdce91fa).
